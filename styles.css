@@ -81,7 +81,7 @@ body {
 .container {
 	display: flex;
 	gap: 0.5em;
-	height: 70vh;
+	height: 65vh;
 	justify-content: center;
 	align-items: center;
 }
