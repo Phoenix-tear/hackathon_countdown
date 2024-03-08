@@ -10,6 +10,12 @@ body {
 	margin: 0;
 	overflow: hidden;
 }
+.row{
+	display: flex;
+	column-gap: 1.7vw;
+	justify-content: center;
+	align-items: center;
+}
 
 
 .flip-card {
@@ -81,9 +87,24 @@ body {
 .container {
 	display: flex;
 	gap: 0.5em;
-	height: 65vh;
+	height: 100vh;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+.container h1{
+	color: #92FF52;
+}
+.aligner{
+	display: flex;
+	flex-direction: row;
+	column-gap: 1vw;
+	border-radius: 25px;
+	box-shadow: 0px 0px 45px -10px #92FF52;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	padding-bottom: 2rem;
+	padding-top: 1rem;
 }
 
 .container-segment {
